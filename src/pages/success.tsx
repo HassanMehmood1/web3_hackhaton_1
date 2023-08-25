@@ -11,7 +11,7 @@ const SuccessPage = () => {
       </h1>
       <Link
         className="text-lg text-gray-500 hover:underline underline-offset-4 decoration-[1px] hover:text-blue-600 duration-300"
-        href={"https://web3-hackhaton-1.vercel.app"}
+        href={"/"}
         onClick={() => dispatch(resetCart())}
       >
         <p>Continue Shopping</p>
